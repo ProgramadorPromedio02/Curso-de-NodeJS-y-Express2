@@ -13,6 +13,6 @@ Promise.all([
 ])
 .then(([text, secondText]) => {
   // Se ejecuta cuando ambas lecturas se han completado
-  console.log('primer texto:', text);      // Imprime el contenido del primer archivo
-  console.log('segundo texto:', secondText); // Imprime el contenido del segundo archivo
+  console.log('primer texto:', text)      // Imprime el contenido del primer archivo
+  console.log('segundo texto:', secondText) // Imprime el contenido del segundo archivo
 })

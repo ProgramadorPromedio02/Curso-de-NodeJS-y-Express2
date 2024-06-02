@@ -1,0 +1,36 @@
+{
+  "name": "curso-node",
+  "version": "1.0.0",
+  "description": "El mejor curso sin pagar un peso por ser pobre",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ProgramadorPromedio02/Curso-de-NodeJS-y-Express2.git"
+  },
+  "keywords": [
+    "curso",
+    "node",
+    "nodejs",
+    "promedio"
+  ],
+  "author": "ProgramadorPromedio02",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ProgramadorPromedio02/Curso-de-NodeJS-y-Express2/issues"
+  },
+  "homepage": "https://github.com/ProgramadorPromedio02/Curso-de-NodeJS-y-Express2#readme",
+  "dependencies": {
+    "picocolors": "^1.0.1"
+  },
+  "comments": {
+    "versioning": "X.Y.Z -> SEMANTIC VERSIONING. X is the MAJOR version, Y is the MINOR version, Z is the PATCH version.",
+    "semantic_versioning": "X: Major changes (breaks backward compatibility), Y: Minor changes (new features), Z: Patch (bug fixes).",
+    "caret": "El caret (^) hace que cuando hay una nueva version de ese paquete se actualice automaticamente."
+  },
+  "devDependencies": {
+    "standard": "17.1.0"
+  }
+}
