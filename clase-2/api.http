@@ -1,0 +1,31 @@
+### recuperar informacion del pokemon ditto
+GET http://localhost:1234/pokemon/ditto
+
+### para crear un Pokemon
+POST http://localhost:1234/pokemon
+Content-Type: application/json
+{
+  "name": "ditto",
+  "type": "normal",
+  "moves": [
+    "transform"
+  ]
+}
+
+### como funciona los chunks
+
+### chunk 1
+{
+  "na
+### chunk 2
+      me": "ditt
+### chunk 3
+                o",
+  "type": "no
+### chunk 4
+              rmal",
+  "moves": [
+### chunk 5
+      "transform"    
+  ]
+}
